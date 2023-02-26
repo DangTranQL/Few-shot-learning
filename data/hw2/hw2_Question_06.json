@@ -1,0 +1,7 @@
+{
+       "Id": "6",
+       "Question": "For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?",
+       "Solution": "[-2, 1, -1, 0, 0, -1, 0, -1].  Simply apply the rules of 1D convolution.",
+       "ChatGPT Answer": "The convolution of filter $k$ with image $x$ can be calculated as follows:\r\n\r\nThe convolution starts by placing the filter $k$ at the first position of the image $x$.\r\n\r\nElement-wise multiplication is performed between the values in the filter and the values in the overlapping part of the image.\r\n\r\nThe values obtained from the multiplication are summed up, which gives us the value of the output feature map at the corresponding position.\r\n\r\nThe filter is then shifted one step to the right, and the process is repeated until the filter has covered all the positions in the image.\r\n\r\nFor example, for the first position in the output feature map, the calculation would be:\r\n\r\n$(-1 * 1) + (1 * 0) + (-1 * 1) = -2$\r\n\r\nFor the second position, the calculation would be:\r\n\r\n$(-1 * 0) + (1 * 1) + (-1 * 0) = 1$\r\n\r\nAnd so on. The final output feature map would be a 1-D vector with the same length as the number of steps taken by the filter, which in this case would be:\r\n\r\n$[-2, 1, -2, 0, 0, 0, 0, 1, -1, 0]$",
+       "Grade 0/1": "0.0"
+}

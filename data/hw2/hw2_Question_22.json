@@ -1,0 +1,7 @@
+{
+       "Id": "22",
+       "Question": "What is the benefit of using attention in RNN?\n\\begin{enumerate}[label=\\alph*.]\n    \\item[a.] We can model long dependencies.\n    \\item[b.] The inputs are processed in parallel rather than sequentially.\n    \\item[c.] Resolves vanishing gradients.\n    \\item[d.] All of the above.\n\\end{enumerate}",
+       "Solution": "d.",
+       "ChatGPT Answer": "d. All of the above.",
+       "Grade 0/1": "1.0"
+}

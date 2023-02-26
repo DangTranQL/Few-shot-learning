@@ -1,0 +1,7 @@
+{
+       "Id": "15",
+       "Question": "What is the output $s_3$ of the following RNN?\n\\begin{equation*}\n        x_1 = 1, x_2 = 1, x_3 = 1, w = 1, u = 1, v = 1, s_0 = 0\\\\\n\\end{equation*}\n\\begin{equation*}\n        s_1 = w \\cdot s_0 + x_1\n\\end{equation*}\n\\begin{equation*}\n        v_1 = s_1\n\\end{equation*}\n\\begin{equation*}\n        s_2 = w \\cdot s_1 + x_2\n\\end{equation*}\n\\begin{equation*}\n        v_2 = s_2\n\\end{equation*}\n\\begin{equation*}\n        s_3 = w \\cdot s_2 + x_3 = \\,\\, \\mathbf{?}\n\\end{equation*}",
+       "Solution": "3",
+       "ChatGPT Answer": "Given the following RNN:\r\n\r\n\\begin{equation*}\r\nx_1 = 1, x_2 = 1, x_3 = 1, w = 1, u = 1, v = 1, s_0 = 0\\\r\n\\end{equation*}\r\n\\begin{equation*}\r\ns_1 = w \\cdot s_0 + x_1 = 1\r\n\\end{equation*}\r\n\\begin{equation*}\r\nv_1 = s_1 = 1\r\n\\end{equation*}\r\n\\begin{equation*}\r\ns_2 = w \\cdot s_1 + x_2 = 2\r\n\\end{equation*}\r\n\\begin{equation*}\r\nv_2 = s_2 = 2\r\n\\end{equation*}\r\n\r\nThe output $s_3$ is:\r\n\r\n\\begin{equation*}\r\ns_3 = w \\cdot s_2 + x_3 = w \\cdot 2 + 1 = 3\r\n\\end{equation*}\r\n\r\nSo $s_3 = 3$.",
+       "Grade 0/1": "1.0"
+}

@@ -1,0 +1,7 @@
+{
+       "Id": "5",
+       "Question": "What is the convolution of filter $K$ with image $X$? %$K = [[0, 1, 0], [1, -4, 1], [0, 1, 0]]$\n$$K = \\left(\\begin{matrix}\n0 & 1 & 0\\\\\n1 & -4 & 1\\\\\n0 & 1 & 0\n\\end{matrix}\\right)$$\n\n$$X = \\left(\\begin{matrix}\n1 & 1 & 4 & 4\\\\\n1 & 1 & 4 & 4\\\\\n1 & 1 & 4 & 4\\\\\n1 & 1 & 4 & 4\n\\end{matrix}\\right)$$",
+       "Solution": "[[3, -3], [3, -3]].",
+       "ChatGPT Answer": "The convolution of filter $K$ with image $X$ can be calculated as follows:\r\n\r\nWe start by placing the filter $K$ at the top left corner of the image $X$.\r\n\r\nWe then element-wise multiply the values in the filter with the values in the overlapping part of the image.\r\n\r\nWe then sum up the values obtained from the multiplication, which gives us the value of the output feature map at the corresponding position.\r\n\r\nWe repeat this process for every position in the image by sliding the filter one step at a time, either vertically or horizontally, until we have covered the entire image.\r\n\r\nFor example, for the first position in the output feature map, the calculation would be:\r\n\r\n$(0 * 1) + (1 * 1) + (0 * 1) + (1 * 1) + (-4 * 1) + (1 * 1) + (0 * 1) + (1 * 1) + (0 * 1) = -2$\r\n\r\nThe final output feature map would be a 2-D matrix with the same number of rows and columns as the output, which in this case would be:\r\n\r\n-2 & -1 & 0 & 1\\\\\r\n-1 & -2 & -1 & 0\\\\\r\n0 & -1 & -2 & -1\\\\\r\n1 & 0 & -1 & -2\r\n\\end{matrix}\\right)$$\n",
+       "Grade 0/1": "0.0"
+}
