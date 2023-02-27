@@ -1,0 +1,4022 @@
+Question,Original Question,Actual Solution,Codex Input,Codex Output,Zero-Shot Evaluation,Most Similar Questions,Few-Shot Input,Few-Shot Output,Few-Shot Evaluation
+1,Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.,"15. For an image of size $(x, x)$, a padding of size $a$, and a filter of size $(y, y)$ with default stride size of $1$, the output size is $((x+2a) - y)/1 + 1$.  In this case, we have $\frac{(x+2a) - y}{1} + 1 = x$ where $x=80$ and $y=31$.  Solving for $a$, we get $a=15$.","""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+","
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1",1,"[4, 8, 12, 6, 10, 7, 5, 9, 11, 18, 3, 20, 21, 2, 15, 19, 17, 13, 14, 22, 16]",n/a,n/a,
+2,"Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}","a, b, and c.","""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+","
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution",1,"[11, 3, 14, 10, 21, 16, 13, 4, 22, 5, 9, 17, 8, 20, 6, 12, 7, 15, 18, 1, 19]",n/a,n/a,
+3,"Which of the following are true of pooling layers in CNNs?
+\begin{enumerate}[label=\alph*.]
+    \item They reduce the size of the input to the next layer. 
+    \item They increase the number of parameters.
+    \item They reduce the number of connections to the next layer. 
+    \item They reduce the number of parameters.
+\end{enumerate}","a, c, d. \, b is false because pooling neither adds to nor subtracts from parameters.","""""""
+write a program that answers the following question: Which of the following are true of pooling layers in CNNs?
+\begin{enumerate}[label=\alph*.]
+    \item They reduce the size of the input to the next layer. 
+    \item They increase the number of parameters.
+    \item They reduce the number of connections to the next layer. 
+    \item They reduce the number of parameters.
+\end{enumerate}
+""""""
+","
+# a, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional layers in CNNs?
+\begin{enumerate}[label=\alph*.]
+    \item They reduce the size of the input to the next layer. 
+    \item They increase the number of parameters.
+    \item They reduce the number of connections to the next layer. 
+    \item They reduce the number of parameters.
+\end{enumerate}
+""""""
+
+# a, c
+
+""""""
+write a program that answers the following question: Which of the following are true of pooling layers in CNNs?
+\begin{enumerate}[label=\alph*.]
+    \item They reduce the size of the input to the next layer. 
+    \item They increase the number of parameters.
+    \item They reduce the number of connections to the next layer. 
+    \item They reduce the number of parameters.
+\end{enumerate}
+""""""
+
+# a, c
+
+""""""
+write a program that answers the following question: Which of the following are true of pooling layers",0,"[11, 10, 2, 4, 14, 22, 16, 13, 8, 21, 7, 9, 12, 17, 1, 18, 5, 15, 6, 20, 19]","""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1
+
+""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: Which of the following are true of pooling layers in CNNs?
+\begin{enumerate}[label=\alph*.]
+    \item They reduce the size of the input to the next layer. 
+    \item They increase the number of parameters.
+    \item They reduce the number of connections to the next layer. 
+    \item They reduce the number of parameters.
+\end{enumerate}
+""""""
+","
+# a, c, d
+
+""""""
+write a program that answers the following question: Which of the following are true of pooling layers in CNNs?
+\begin{enumerate}[label=\alph*.]
+    \item They reduce the size of the input to the next layer. 
+    \item They increase the number of parameters.
+    \item They reduce the number of connections to the next layer. 
+    \item They reduce the number of parameters.
+\end{enumerate}
+""""""
+
+# a, c, d
+
+""""""
+write a program that answers the following question: Which of the following are true of pooling layers in CNNs?
+\begin{enumerate}[label=\alph*.]
+    \item They reduce the size of the input to the next layer. 
+    \item They increase the number of parameters.
+    \item They reduce the number of connections to the next layer. 
+    \item They reduce the number of parameters.
+\end{enumerate}
+""""""
+
+# a, c, d
+
+""""""
+write a program that answers the following question: Which of the following are",
+4,"Consider the following CNN architecture:
+
+Input: (10, 10, 3)
+\begin{enumerate}[label=-]
+\item A convolutional layer with 32 5 Ã— 5 filters, stride 1, and padding 2
+
+\item A ReLU activation layer
+
+\item A max pooling layer with size 2 and stride 2
+
+\item A convolutional layer with 64 5 Ã— 5 filters, stride 1, and padding 2
+
+\item A ReLU activation layer
+
+\item A max pooling layer with size 2 and stride 2
+
+\item A fully-connected layer with 128 neurons
+
+\item A ReLU activation layer
+
+\item A dropout layer with drop probability 0.5
+
+\item A fully-connected layer with 10 neurons
+
+\item A softmax activation layer
+\end{enumerate}
+What is the total number of parameters in this network?","The learnable parameters in this CNN architecture are:
+\begin{itemize}
+    \item[â€¢]
+    $32 \times (5 \times 5 \times 3 + 1) = 2432$ parameters from the first convolutional layer
+    \item[â€¢]
+    $64 \times (5 \times 5 \times 32 + 1) = 51264$ parameters from the second convolutional layer
+    \item[â€¢]
+    $128 \times (2 \times 2 \times 64 + 1) = 32896$ parameters from the first fully-connected layer
+    \item[â€¢]
+    $10 \times (128 + 1) = 1290$ parameters from the second fully-connected layer
+\end{itemize}
+Note that all the ``$+1$''s account for the bias terms, $(5, 5, 32)$ is the input shape after the 1st max pooling, and $(2, 2, 64)$ is the input shape after the 2nd max pooling.  Adding up these numbers, we get $87882$ learnable parameters in total.  (Alternatively, if you did not account for any bias term, you would get $63306$ learnable parameters in total, which is also accepted as correct answer.)","""""""
+write a program that answers the following question: Consider the following CNN architecture:
+
+Input: (10, 10, 3)
+\begin{enumerate}[label=-]
+\item A convolutional layer with 32 5 Ã— 5 filters, stride 1, and padding 2
+
+\item A ReLU activation layer
+
+\item A max pooling layer with size 2 and stride 2
+
+\item A convolutional layer with 64 5 Ã— 5 filters, stride 1, and padding 2
+
+\item A ReLU activation layer
+
+\item A max pooling layer with size 2 and stride 2
+
+\item A fully-connected layer with 128 neurons
+
+\item A ReLU activation layer
+
+\item A dropout layer with drop probability 0.5
+
+\item A fully-connected layer with 10 neurons
+
+\item A softmax activation layer
+\end{enumerate}
+What is the total number of parameters in this network?
+""""""
+","
+# Input: (10, 10, 3)
+# 1. A convolutional layer with 32 5 Ã— 5 filters, stride 1, and padding 2
+# (10, 10, 3) -> (10, 10, 32)
+# (5, 5, 3, 32)
+# 32 * (5 * 5 * 3 + 1) = 832
+# 2. A ReLU activation layer
+# (10, 10, 32) -> (10, 10, 32)
+# 3. A max pooling layer with size 2 and stride 2
+# (10, 10, 32) -> (5, 5, 32)
+# 4. A convolutional layer with 64 5 Ã— 5 filters, stride 1, and padding 2
+# (5, 5, 32) -> (5, 5, 64)
+# (5, 5, 32, 64)
+# 64 * (5 * 5 * 32 + 1) = 51264
+# 5. A ReLU activation layer
+# (5, 5, 64) -> (5, 5, 64)
+# 6. A max pooling layer with size 2 and stride 2
+# (5, 5, 64) -> (3,",0,"[10, 8, 3, 11, 1, 7, 12, 6, 2, 21, 18, 13, 14, 15, 5, 19, 22, 16, 9, 20, 17]","""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1
+
+""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: Consider the following CNN architecture:
+
+Input: (10, 10, 3)
+\begin{enumerate}[label=-]
+\item A convolutional layer with 32 5 Ã— 5 filters, stride 1, and padding 2
+
+\item A ReLU activation layer
+
+\item A max pooling layer with size 2 and stride 2
+
+\item A convolutional layer with 64 5 Ã— 5 filters, stride 1, and padding 2
+
+\item A ReLU activation layer
+
+\item A max pooling layer with size 2 and stride 2
+
+\item A fully-connected layer with 128 neurons
+
+\item A ReLU activation layer
+
+\item A dropout layer with drop probability 0.5
+
+\item A fully-connected layer with 10 neurons
+
+\item A softmax activation layer
+\end{enumerate}
+What is the total number of parameters in this network?
+""""""
+","
+# (5 * 5 * 3 + 1) * 32 + (5 * 5 * 32 + 1) * 64 + (8 * 8 * 64 + 1) * 128 + (128 + 1) * 10 = 185538
+
+""""""
+write a program that answers the following question: Consider the following CNN architecture:
+
+Input: (10, 10, 3)
+\begin{enumerate}[label=-]
+\item A convolutional layer with 32 5 Ã— 5 filters, stride 1, and padding 2
+
+\item A ReLU activation layer
+
+\item A max pooling layer with size 2 and stride 2
+
+\item A convolutional layer with 64 5 Ã— 5 filters, stride 1, and padding 2
+
+\item A ReLU activation layer
+
+\item A max pooling layer with size 2 and stride 2
+
+\item A fully-connected layer with 128 neurons
+
+\item A ReLU activation layer
+
+\item A dropout layer with drop probability 0.5
+
+\item A fully-connected layer with 10 neurons
+
+\item A softmax activation layer
+\end{enumerate}
+What is the total",
+5,"What is the convolution of filter $K$ with image $X$? %$K = [[0, 1, 0], [1, -4, 1], [0, 1, 0]]$
+$$K = \left(\begin{matrix}
+0 & 1 & 0\\
+1 & -4 & 1\\
+0 & 1 & 0
+\end{matrix}\right)$$
+
+$$X = \left(\begin{matrix}
+1 & 1 & 4 & 4\\
+1 & 1 & 4 & 4\\
+1 & 1 & 4 & 4\\
+1 & 1 & 4 & 4
+\end{matrix}\right)$$","[[3, -3], [3, -3]].","""""""
+write a program that answers the following question: What is the convolution of filter $K$ with image $X$? %$K = [[0, 1, 0], [1, -4, 1], [0, 1, 0]]$
+$$K = \left(\begin{matrix}
+0 & 1 & 0\\
+1 & -4 & 1\\
+0 & 1 & 0
+\end{matrix}\right)$$
+
+$$X = \left(\begin{matrix}
+1 & 1 & 4 & 4\\
+1 & 1 & 4 & 4\\
+1 & 1 & 4 & 4\\
+1 & 1 & 4 & 4
+\end{matrix}\right)$$
+""""""
+","
+import numpy as np
+
+K = np.array([[0, 1, 0], [1, -4, 1], [0, 1, 0]])
+X = np.array([[1, 1, 4, 4], [1, 1, 4, 4], [1, 1, 4, 4], [1, 1, 4, 4]])
+
+# convolution
+def convolution(K, X):
+    # get the shape of the kernel
+    k_rows, k_cols = K.shape
+    # get the shape of the image
+    x_rows, x_cols = X.shape
+    # create a new matrix to store the convolution
+    conv = np.zeros((x_rows - k_rows + 1, x_cols - k_cols + 1))
+    # iterate over the image
+    for i in range(x_rows - k_rows + 1):
+        for j in range(x_cols - k_cols + 1):
+            # iterate over the kernel
+            for k in range(k_rows):
+                for l in range(k",0,"[12, 6, 7, 8, 9, 10, 1, 11, 2, 15, 4, 19, 18, 3, 13, 17, 14, 21, 22, 16, 20]","""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: What is the convolution of filter $K$ with image $X$? %$K = [[0, 1, 0], [1, -4, 1], [0, 1, 0]]$
+$$K = \left(\begin{matrix}
+0 & 1 & 0\\
+1 & -4 & 1\\
+0 & 1 & 0
+\end{matrix}\right)$$
+
+$$X = \left(\begin{matrix}
+1 & 1 & 4 & 4\\
+1 & 1 & 4 & 4\\
+1 & 1 & 4 & 4\\
+1 & 1 & 4 & 4
+\end{matrix}\right)$$
+""""""
+","
+import numpy as np
+
+# filter
+K = np.array([[0, 1, 0], [1, -4, 1], [0, 1, 0]])
+
+# image
+X = np.array([[1, 1, 4, 4], [1, 1, 4, 4], [1, 1, 4, 4], [1, 1, 4, 4]])
+
+# convolution
+convolution = np.zeros(X.shape)
+for i in range(X.shape[0] - K.shape[0] + 1):
+    for j in range(X.shape[1] - K.shape[1] + 1):
+        convolution[i, j] = np.sum(X[i:i+K.shape[0], j:j+K.shape[1]] * K)
+
+print(convolution)
+
+""""""
+write a program that answers the following question: What is the convolution of filter $K$ with image $X$? %$K = [[0, 1, 0], [1, -4, 1], [0, 1, 0]]$
+$$",
+6,"For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?","[-2, 1, -1, 0, 0, -1, 0, -1].  Simply apply the rules of 1D convolution.","""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+","
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))",1,"[12, 5, 8, 7, 1, 9, 4, 19, 18, 10, 15, 11, 2, 17, 13, 3, 14, 20, 21, 22, 16]",n/a,n/a,
+7,"What is the result of performing average pooling on the image $X$?% = [[1, 17, 43, 4, 5], [2, 2, 6, 8, 7], [12, 9, 4, 46, 5], [3, 4, 78, 9, 62],[12, 11, 14, 42, 15] 
+
+$$X = \left(\begin{matrix}
+1 & 17 & 43 & 4 & 5\\
+2 & 2 & 6 & 8 & 7\\
+12 & 9 & 4 & 46 & 5\\
+3 & 4 & 78 & 9 & 62\\
+12 & 11 & 14 & 42 & 15
+\end{matrix}\right)$$
+
+
+with a $2\times2$ kernel, with stride of 2, and padding with values of (1, 1) pixel on the right side and bottom of the image.","[[5.5, 15.25, 3.5], [7, 34.25, 17.25], [6.25, 14.5, 4.5]].  Note that the padded image is X' = [[1, 17, 43, 4, 5, 1], [2, 2, 6, 8, 7, 1], [12, 9, 4, 46, 5, 1], [3, 4, 78, 9, 62, 1],[12, 11, 14, 42, 15, 1], [1, 1, 1, 1, 1, 1]], and the value of each pixel is the sum of the four values of the kernel divided by $4$.","""""""
+write a program that answers the following question: What is the result of performing average pooling on the image $X$?% = [[1, 17, 43, 4, 5], [2, 2, 6, 8, 7], [12, 9, 4, 46, 5], [3, 4, 78, 9, 62],[12, 11, 14, 42, 15] 
+
+$$X = \left(\begin{matrix}
+1 & 17 & 43 & 4 & 5\\
+2 & 2 & 6 & 8 & 7\\
+12 & 9 & 4 & 46 & 5\\
+3 & 4 & 78 & 9 & 62\\
+12 & 11 & 14 & 42 & 15
+\end{matrix}\right)$$
+
+
+with a $2\times2$ kernel, with stride of 2, and padding with values of (1, 1) pixel on the right side and bottom of the image.
+""""""
+","
+import numpy as np
+
+X = np.array([[1, 17, 43, 4, 5], [2, 2, 6, 8, 7], [12, 9, 4, 46, 5], [3, 4, 78, 9, 62],[12, 11, 14, 42, 15]])
+
+print(X)
+
+# padding
+X = np.pad(X, ((0, 1), (0, 1)), 'constant', constant_values=((0, 0), (0, 0)))
+
+print(X)
+
+# average pooling
+X = X.reshape(3, 3, 2, 2)
+X = X.mean(axis=(2, 3))
+
+print(X)",0,"[8, 12, 5, 6, 4, 1, 10, 11, 3, 19, 15, 9, 2, 18, 14, 21, 20, 22, 17, 16, 13]","""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: What is the result of performing average pooling on the image $X$?% = [[1, 17, 43, 4, 5], [2, 2, 6, 8, 7], [12, 9, 4, 46, 5], [3, 4, 78, 9, 62],[12, 11, 14, 42, 15] 
+
+$$X = \left(\begin{matrix}
+1 & 17 & 43 & 4 & 5\\
+2 & 2 & 6 & 8 & 7\\
+12 & 9 & 4 & 46 & 5\\
+3 & 4 & 78 & 9 & 62\\
+12 & 11 & 14 & 42 & 15
+\end{matrix}\right)$$
+
+
+with a $2\times2$ kernel, with stride of 2, and padding with values of (1, 1) pixel on the right side and bottom of the image.
+""""""
+","
+import numpy as np
+
+X = np.array([[1, 17, 43, 4, 5], [2, 2, 6, 8, 7], [12, 9, 4, 46, 5], [3, 4, 78, 9, 62], [12, 11, 14, 42, 15]])
+
+# kernel
+k = np.array([[1, 1], [1, 1]])
+
+# stride
+s = 2
+
+# padding
+p = 1
+
+# output size
+output_size = (X.shape[0] + 2 * p - k.shape[0]) / s + 1
+
+# output
+output = np.zeros((int(output_size), int(output_size)))
+
+# padding
+X = np.pad(X, ((p, p), (p, p)), 'constant', constant_values=((1, 1), (1, 1)))
+
+# average pooling
+for i in range(int(output_size)):
+    for j in range(int(output_size)):
+        output[i, j] = np.mean(X[i*",
+8,"How many weights are in the max pooling operation of the image $X$ above with a 2x2 kernel, with stride of 2, and padding with a value of 1, 1 pixel on the right side and bottom of the image.",0.  Max pooling layers don't have learnable parameters.,"""""""
+write a program that answers the following question: How many weights are in the max pooling operation of the image $X$ above with a 2x2 kernel, with stride of 2, and padding with a value of 1, 1 pixel on the right side and bottom of the image.
+""""""
+","
+import numpy as np
+
+X = np.array([[1, 2, 3, 4],
+              [5, 6, 7, 8],
+              [9, 10, 11, 12],
+              [13, 14, 15, 16]])
+
+# 2x2 kernel
+# stride of 2
+# padding with a value of 1, 1 pixel on the right side and bottom of the image
+
+# 1 1 1 1
+# 1 1 1 1
+# 1 1 1 1
+# 1 1 1 1
+
+# 1 2 3 4
+# 5 6 7 8
+# 9 10 11 12
+# 13 14 15 16
+
+# 1 2 3 4
+# 5 6 7 8
+# 9 10 11 12
+# 13 14 15 16
+
+# 1 2 3 4
+# 5 6 7 8
+# 9 10 11 12
+# 13 14 15 16
+
+# 1 2 3 4
+# 5 6 7 8
+# 9 10 11 12
+# 13 14 15 16
+
+# 1 2 3 4
+# 5 6 7 8
+# 9 10 11 12
+# 13 14 15 16
+
+# 1 2 3 4
+# 5 6 7 8
+# 9",0,"[7, 12, 4, 6, 5, 10, 1, 18, 11, 19, 3, 2, 14, 15, 9, 21, 13, 20, 17, 22, 16]","""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1
+
+""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: How many weights are in the max pooling operation of the image $X$ above with a 2x2 kernel, with stride of 2, and padding with a value of 1, 1 pixel on the right side and bottom of the image.
+""""""
+","
+# 4
+
+""""""
+write a program that answers the following question: How many weights are in the max pooling operation of the image $X$ above with a 2x2 kernel, with stride of 2, and padding with a value of 1, 1 pixel on the right side and bottom of the image.
+""""""
+
+# 4
+
+""""""
+write a program that answers the following question: How many weights are in the max pooling operation of the image $X$ above with a 2x2 kernel, with stride of 2, and padding with a value of 1, 1 pixel on the right side and bottom of the image.
+""""""
+
+# 4
+
+""""""
+write a program that answers the following question: How many weights are in the max pooling operation of the image $X$ above with a 2x2 kernel, with stride of 2, and padding with a value of 1, 1 pixel on the right side and bottom of the image.
+""""""
+
+# 4
+
+""""""
+write a program that answers the following question: How many weights are in the max pooling operation of the image $X$ above with a 2x2 kernel, with stride of 2, and padding with a value of",
+9,"Which of the following is the correct filter for detecting horizontal edges?
+\begin{enumerate}[label=\alph*.]
+    \item[a.]
+$$\left(\begin{matrix}
+1 & 0 & -1\\
+1 & 0 & -1\\
+1 & 0 & -1
+\end{matrix}\right)$$
+    
+    \item[b.]
+$$\left(\begin{matrix}
+1 & 1 & 1\\
+0 & 0 & 0\\
+-1 & -1 & -1
+\end{matrix}\right)$$
+
+    \item[c.]
+$$\left(\begin{matrix}
+1 & -1 & 1\\
+0 & -1 & 0\\
+1 & -1 & 1
+\end{matrix}\right)$$
+
+    \item[d.]
+$$\left(\begin{matrix}
+1 & -1 & -1\\
+1 & 1 & -1\\
+1 & 0 & -1
+\end{matrix}\right)$$
+\end{enumerate}",b.  Horizontal filters is the best for detecting horizontal edges.,"""""""
+write a program that answers the following question: Which of the following is the correct filter for detecting horizontal edges?
+\begin{enumerate}[label=\alph*.]
+    \item[a.]
+$$\left(\begin{matrix}
+1 & 0 & -1\\
+1 & 0 & -1\\
+1 & 0 & -1
+\end{matrix}\right)$$
+    
+    \item[b.]
+$$\left(\begin{matrix}
+1 & 1 & 1\\
+0 & 0 & 0\\
+-1 & -1 & -1
+\end{matrix}\right)$$
+
+    \item[c.]
+$$\left(\begin{matrix}
+1 & -1 & 1\\
+0 & -1 & 0\\
+1 & -1 & 1
+\end{matrix}\right)$$
+
+    \item[d.]
+$$\left(\begin{matrix}
+1 & -1 & -1\\
+1 & 1 & -1\\
+1 & 0 & -1
+\end{matrix}\right)$$
+\end{enumerate}
+""""""
+","
+import numpy as np
+import cv2
+
+# read the image
+img = cv2.imread('../images/horizontal_edge.png', 0)
+
+# create a kernel
+kernel = np.array([[1, 0, -1], [1, 0, -1], [1, 0, -1]])
+
+# apply the filter
+filtered_img = cv2.filter2D(img, -1, kernel)
+
+# show the image
+cv2.imshow('Original', img)
+cv2.imshow('Filtered', filtered_img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()",0,"[17, 11, 5, 10, 6, 14, 16, 2, 12, 19, 15, 22, 1, 8, 7, 21, 3, 18, 4, 13, 20]","""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1
+
+""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: Which of the following is the correct filter for detecting horizontal edges?
+\begin{enumerate}[label=\alph*.]
+    \item[a.]
+$$\left(\begin{matrix}
+1 & 0 & -1\\
+1 & 0 & -1\\
+1 & 0 & -1
+\end{matrix}\right)$$
+    
+    \item[b.]
+$$\left(\begin{matrix}
+1 & 1 & 1\\
+0 & 0 & 0\\
+-1 & -1 & -1
+\end{matrix}\right)$$
+
+    \item[c.]
+$$\left(\begin{matrix}
+1 & -1 & 1\\
+0 & -1 & 0\\
+1 & -1 & 1
+\end{matrix}\right)$$
+
+    \item[d.]
+$$\left(\begin{matrix}
+1 & -1 & -1\\
+1 & 1 & -1\\
+1 & 0 & -1
+\end{matrix}\right)$$
+\end{enumerate}
+""""""
+","
+# b.
+
+""""""
+write a program that answers the following question: Which of the following is the correct filter for detecting horizontal edges?
+\begin{enumerate}[label=\alph*.]
+    \item[a.]
+$$\left(\begin{matrix}
+1 & 0 & -1\\
+1 & 0 & -1\\
+1 & 0 & -1
+\end{matrix}\right)$$
+    
+    \item[b.]
+$$\left(\begin{matrix}
+1 & 1 & 1\\
+0 & 0 & 0\\
+-1 & -1 & -1
+\end{matrix}\right)$$
+
+    \item[c.]
+$$\left(\begin{matrix}
+1 & -1 & 1\\
+0 & -1 & 0\\
+1 & -1 & 1
+\end{matrix}\right)$$
+
+    \item[d.]
+$$\left(\begin{matrix}
+1 & -1 & -1\\
+1 & 1 & -1\\
+1 & 0 & -1
+\end{matrix}\right)$$
+\end{enumerate",
+10,"Consider one layer of weights in a convolutional neural network processing grayscale images, connecting one layer of units to the next layer of units. Which of the following types of layers has the least parameters?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] A fully-connected layer from 20 hidden units to 4 output units. 
+    \item[b.] A convolutional layer with eight 5 $\times$ 5 filters. 
+    \item[c.] A max-pooling layer that reduces a 10 $\times$ 10 image to a 5 $\times$ 5. 
+    \item[d.] A convolutional layer with ten 3 $\times$ 3 filters. 
+\end{enumerate}","c, because fully-connected layers and convolutional layers with filters have learnable parameters but pooling layers don't.","""""""
+write a program that answers the following question: Consider one layer of weights in a convolutional neural network processing grayscale images, connecting one layer of units to the next layer of units. Which of the following types of layers has the least parameters?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] A fully-connected layer from 20 hidden units to 4 output units. 
+    \item[b.] A convolutional layer with eight 5 $\times$ 5 filters. 
+    \item[c.] A max-pooling layer that reduces a 10 $\times$ 10 image to a 5 $\times$ 5. 
+    \item[d.] A convolutional layer with ten 3 $\times$ 3 filters. 
+\end{enumerate}
+""""""
+","
+# a. 20*4 = 80
+# b. 5*5*8 = 200
+# c. 10*10/4 = 25
+# d. 3*3*10 = 90
+
+""""""
+write a program that answers the following question: Consider one layer of weights in a convolutional neural network processing grayscale images, connecting one layer of units to the next layer of units. Which of the following types of layers has the most parameters?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] A fully-connected layer from 20 hidden units to 4 output units. 
+    \item[b.] A convolutional layer with eight 5 $\times$ 5 filters. 
+    \item[c.] A max-pooling layer that reduces a 10 $\times$ 10 image to a 5 $\times$ 5. 
+    \item[d.] A convolutional layer with ten 3 $\times$ 3 filters. 
+\end{enumerate}
+""""""
+
+# a. 20*4 = 80
+# b. 5*5*8 = 200
+# c. 10*10/4 = 25
+# d.",0,"[11, 4, 3, 14, 2, 8, 16, 9, 21, 5, 1, 22, 6, 17, 12, 7, 18, 13, 15, 20, 19]","""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1
+
+""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: Consider one layer of weights in a convolutional neural network processing grayscale images, connecting one layer of units to the next layer of units. Which of the following types of layers has the least parameters?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] A fully-connected layer from 20 hidden units to 4 output units. 
+    \item[b.] A convolutional layer with eight 5 $\times$ 5 filters. 
+    \item[c.] A max-pooling layer that reduces a 10 $\times$ 10 image to a 5 $\times$ 5. 
+    \item[d.] A convolutional layer with ten 3 $\times$ 3 filters. 
+\end{enumerate}
+""""""
+","
+# c. A max-pooling layer that reduces a 10 $\times$ 10 image to a 5 $\times$ 5.
+
+""""""
+write a program that answers the following question: Consider one layer of weights in a convolutional neural network processing grayscale images, connecting one layer of units to the next layer of units. Which of the following types of layers has the least parameters?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] A fully-connected layer from 20 hidden units to 4 output units. 
+    \item[b.] A convolutional layer with eight 5 $\times$ 5 filters. 
+    \item[c.] A max-pooling layer that reduces a 10 $\times$ 10 image to a 5 $\times$ 5. 
+    \item[d.] A convolutional layer with ten 3 $\times$ 3 filters. 
+\end{enumerate}
+""""""
+
+# c. A max-pooling layer that reduces a 10 $\times$ 10 image to a 5 $\times$ 5.
+
+""""""
+write a program that answers the following question: Consider one layer of weights in a convolutional",
+11,"Which of the following are true of convolutional neural networks for image analysis?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] Filters in earlier layers tend to include edge detectors. 
+    \item[b.] Pooling layers reduce the spatial resolution of the image.
+    \item[c.] They have more parameters than fully-connected networks with the same number of layers and the same number of neurons in each layer.
+    \item[d.] A CNN can be trained for unsupervised learning tasks, whereas an ordinary neural net cannot. 
+\end{enumerate}","a, b.  CNNs have generally less parameters than fully-connected networks with the same number of layers and neurons, which is why CNNs are more efficient.  Also, any neural network can be trained to perform unsupervised learning tasks --- at least in principle.","""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] Filters in earlier layers tend to include edge detectors. 
+    \item[b.] Pooling layers reduce the spatial resolution of the image.
+    \item[c.] They have more parameters than fully-connected networks with the same number of layers and the same number of neurons in each layer.
+    \item[d.] A CNN can be trained for unsupervised learning tasks, whereas an ordinary neural net cannot. 
+\end{enumerate}
+""""""
+","
+# a, b, c are true
+
+""""""
+write a program that answers the following question: Which of the following are true of recurrent neural networks?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] They are useful for processing sequential data.
+    \item[b.] They are useful for processing sequential data.
+    \item[c.] They are useful for processing sequential data.
+    \item[d.] They are useful for processing sequential data.
+\end{enumerate}
+""""""
+
+# a, b, c, d are true
+
+""""""
+write a program that answers the following question: Which of the following are true of recurrent neural networks?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] They are useful for processing sequential data.
+    \item[b.] They are useful for processing sequential data.
+    \item[c.] They are useful for processing sequential data.
+    \item[d.] They are useful for processing sequential data.
+\end{enumerate}
+""""""
+
+# a, b, c, d are true
+
+""""""
+",0,"[2, 3, 10, 14, 16, 4, 21, 22, 9, 13, 8, 17, 5, 7, 6, 20, 12, 1, 15, 18, 19]","""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: Suppose you would like to classify restaurant reviews as good or bad. Why is a bag of words not an appropriate solution? Explain.
+""""""
+
+""""""
+ANSWER:
+
+A bag of words is not an appropriate solution because it does not take into account the order of the words.
+
+For example, the sentence ""The food was good"" would be classified as a good review, but the sentence ""The food was not good"" would be classified as a bad review.
+
+A bag of words would not be able to distinguish between these two sentences.
+""""""
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] Filters in earlier layers tend to include edge detectors. 
+    \item[b.] Pooling layers reduce the spatial resolution of the image.
+    \item[c.] They have more parameters than fully-connected networks with the same number of layers and the same number of neurons in each layer.
+    \item[d.] A CNN can be trained for unsupervised learning tasks, whereas an ordinary neural net cannot. 
+\end{enumerate}
+""""""
+","
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] Filters in earlier layers tend to include edge detectors. 
+    \item[b.] Pooling layers reduce the spatial resolution of the image.
+    \item[c.] They have more parameters than fully-connected networks with the same number of layers and the same number of neurons in each layer.
+    \item[d.] A CNN can be trained for unsupervised learning tasks, whereas an ordinary neural net cannot. 
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] Filters in earlier layers tend to include edge detectors. 
+    \item[b.] Pooling layers reduce the spatial resolution of the image.
+    \item[c.] They have",
+12,"Given an input image $X$, and the kernel $K$, with a stride of 1, and a zero padding of 1 pixel around the image. What is the output of convolution of $K$ with $X$ with stride 1 and zero padding of size one?\\
+
+$$X = \left(\begin{matrix}
+1 & 2 & 1\\
+3 & 4 & 3\\
+2 & 1 & 2\\
+4 & 3 & 4
+\end{matrix}\right)$$
+
+$$K = \left(\begin{matrix}
+1 & 1\\
+2 & 2
+\end{matrix}\right)$$","[[2, 6, 6, 2], [7, 17, 17, 7], [7, 13, 13, 7], [10, 17, 17,10], [4, 7, 7, 4]][[2, 6, 6, 2], [7, 17, 17, 7], [7, 13, 13, 7], [10, 17, 17,10], [4, 7, 7, 4]].","""""""
+write a program that answers the following question: Given an input image $X$, and the kernel $K$, with a stride of 1, and a zero padding of 1 pixel around the image. What is the output of convolution of $K$ with $X$ with stride 1 and zero padding of size one?\\
+
+$$X = \left(\begin{matrix}
+1 & 2 & 1\\
+3 & 4 & 3\\
+2 & 1 & 2\\
+4 & 3 & 4
+\end{matrix}\right)$$
+
+$$K = \left(\begin{matrix}
+1 & 1\\
+2 & 2
+\end{matrix}\right)$$
+""""""
+","
+import numpy as np
+
+X = np.array([[1, 2, 1], [3, 4, 3], [2, 1, 2], [4, 3, 4]])
+K = np.array([[1, 1], [2, 2]])
+
+def convolution(X, K):
+    """"""
+    X: input image
+    K: kernel
+    """"""
+    # zero padding
+    X_pad = np.pad(X, ((1, 1), (1, 1)), 'constant', constant_values=0)
+    # output
+    out = np.zeros((X.shape[0], X.shape[1]))
+    # convolution
+    for i in range(out.shape[0]):
+        for j in range(out.shape[1]):
+            out[i, j] = np.sum(X_pad[i:i+K.shape[0], j:j+K.shape[1]] * K)
+    return out
+
+print(convolution(X, K))",0,"[5, 6, 8, 7, 1, 4, 15, 10, 9, 18, 19, 11, 2, 3, 17, 13, 14, 21, 22, 20, 16]","""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1
+
+""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: Given an input image $X$, and the kernel $K$, with a stride of 1, and a zero padding of 1 pixel around the image. What is the output of convolution of $K$ with $X$ with stride 1 and zero padding of size one?\\
+
+$$X = \left(\begin{matrix}
+1 & 2 & 1\\
+3 & 4 & 3\\
+2 & 1 & 2\\
+4 & 3 & 4
+\end{matrix}\right)$$
+
+$$K = \left(\begin{matrix}
+1 & 1\\
+2 & 2
+\end{matrix}\right)$$
+""""""
+","
+import numpy as np
+
+X = np.array([[1, 2, 1], [3, 4, 3], [2, 1, 2], [4, 3, 4]])
+K = np.array([[1, 1], [2, 2]])
+
+def convolution(X, K):
+    """"""
+    X: input image
+    K: kernel
+    """"""
+    # stride = 1
+    # zero padding of size one
+    # output size = input size - filter size + 1
+    output_size = len(X) - len(K) + 1
+    output = np.zeros((output_size, output_size))
+    for i in range(output_size):
+        for j in range(output_size):
+            output[i, j] = np.sum(X[i:i+len(K), j:j+len(K)] * K)
+    return output
+
+print(convolution(X, K))
+
+""""""
+write a program that answers the following question: Given an input image $X$, and the kernel $K$, with a stride of 1, and a zero",
+13,Describe the advantages of the Transformer architecture over CNNs and RNNs.,"The Transformer architecture utilizes an attention mechanism that allows it to learn the context of a given sequence, allowing it to better understand the input sequence. This attention mechanism allows the Transformer architecture to better capture long-term dependencies which are difficult to capture with CNNs and RNNs. Unlike RNNs, the Transformer architecture can process multiple parts of a sequence in parallel, allowing it to process data faster and more efficiently.","""""""
+write a program that answers the following question: Describe the advantages of the Transformer architecture over CNNs and RNNs.
+""""""
+","
+""""""
+The Transformer architecture is a sequence-to-sequence model that uses attention to connect the input sequence to the output sequence.
+
+The Transformer architecture is a sequence-to-sequence model that uses attention to connect the input sequence to the output sequence.
+
+The Transformer architecture is a sequence-to-sequence model that uses attention to connect the input sequence to the output sequence.
+
+The Transformer architecture is a sequence-to-sequence model that uses attention to connect the input sequence to the output sequence.
+
+The Transformer architecture is a sequence-to-sequence model that uses attention to connect the input sequence to the output sequence.
+
+The Transformer architecture is a sequence-to-sequence model that uses attention to connect the input sequence to the output sequence.
+
+The Transformer architecture is a sequence-to-sequence model that uses attention to connect the input sequence to the output sequence.
+
+The Transformer architecture is a sequence-to-sequence model that uses attention to connect the input sequence to the output sequence.
+
+The Transformer architecture is a sequence-to-sequence model that uses attention to connect the input sequence to the output sequence.
+
+The Transformer architecture is a sequence-to",0,"[22, 11, 2, 21, 3, 16, 4, 20, 10, 14, 15, 18, 6, 5, 8, 19, 17, 12, 9, 1, 7]","""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: Suppose you would like to classify restaurant reviews as good or bad. Why is a bag of words not an appropriate solution? Explain.
+""""""
+
+""""""
+ANSWER:
+
+A bag of words is not an appropriate solution because it does not take into account the order of the words.
+
+For example, the sentence ""The food was good"" would be classified as a good review, but the sentence ""The food was not good"" would be classified as a bad review.
+
+A bag of words would not be able to distinguish between these two sentences.
+""""""
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: Describe the advantages of the Transformer architecture over CNNs and RNNs.
+""""""
+","
+""""""
+ANSWER:
+
+The Transformer architecture has the following advantages over CNNs and RNNs:
+
+1. The Transformer architecture can be parallelized.
+2. The Transformer architecture can be trained on a GPU.
+3. The Transformer architecture can be trained on a TPU.
+4. The Transformer architecture can be trained on a CPU.
+5. The Transformer architecture can be trained on a mobile device.
+6. The Transformer architecture can be trained on a server.
+7. The Transformer architecture can be trained on a cloud.
+8. The Transformer architecture can be trained on a supercomputer.
+9. The Transformer architecture can be trained on a quantum computer.
+10. The Transformer architecture can be trained on a quantum cloud.
+11. The Transformer architecture can be trained on a quantum supercomputer.
+12. The Transformer architecture can be trained on a quantum mobile device.
+13. The Transformer architecture can be trained on a quantum server.
+14. The Transformer architecture can be trained on a quantum cloud.
+15. The Transformer architecture can be trained on a quantum supercomputer.
+16. The Transformer architecture can be",
+14,"Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}",a.,"""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+","
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}",1,"[16, 11, 10, 2, 22, 3, 18, 17, 9, 15, 21, 4, 13, 8, 19, 20, 5, 7, 6, 12, 1]",n/a,n/a,
+15,"What is the output $s_3$ of the following RNN?
+\begin{equation*}
+        x_1 = 1, x_2 = 1, x_3 = 1, w = 1, u = 1, v = 1, s_0 = 0\\
+\end{equation*}
+\begin{equation*}
+        s_1 = w \cdot s_0 + x_1
+\end{equation*}
+\begin{equation*}
+        v_1 = s_1
+\end{equation*}
+\begin{equation*}
+        s_2 = w \cdot s_1 + x_2
+\end{equation*}
+\begin{equation*}
+        v_2 = s_2
+\end{equation*}
+\begin{equation*}
+        s_3 = w \cdot s_2 + x_3 = \,\, \mathbf{?}
+\end{equation*}",3,"""""""
+write a program that answers the following question: What is the output $s_3$ of the following RNN?
+\begin{equation*}
+        x_1 = 1, x_2 = 1, x_3 = 1, w = 1, u = 1, v = 1, s_0 = 0\\
+\end{equation*}
+\begin{equation*}
+        s_1 = w \cdot s_0 + x_1
+\end{equation*}
+\begin{equation*}
+        v_1 = s_1
+\end{equation*}
+\begin{equation*}
+        s_2 = w \cdot s_1 + x_2
+\end{equation*}
+\begin{equation*}
+        v_2 = s_2
+\end{equation*}
+\begin{equation*}
+        s_3 = w \cdot s_2 + x_3 = \,\, \mathbf{?}
+\end{equation*}
+""""""
+","
+#%%
+""""""
+write a program that answers the following question: What is the output $s_3$ of the following RNN?
+\begin{equation*}
+        x_1 = 1, x_2 = 1, x_3 = 1, w = 1, u = 1, v = 1, s_0 = 0\\
+\end{equation*}
+\begin{equation*}
+        s_1 = w \cdot s_0 + x_1
+\end{equation*}
+\begin{equation*}
+        v_1 = s_1
+\end{equation*}
+\begin{equation*}
+        s_2 = w \cdot s_1 + x_2
+\end{equation*}
+\begin{equation*}
+        v_2 = s_2
+\end{equation*}
+\begin{equation*}
+        s_3 = w \cdot s_2 + x_3 = \,\, \mathbf{?}
+\end{equation*}
+""""""
+
+#%%
+""""""
+write a",0,"[18, 19, 17, 16, 12, 14, 22, 5, 4, 6, 9, 8, 10, 7, 2, 13, 11, 3, 21, 1, 20]","""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1
+
+""""""
+write a program that answers the following question: What is the output $s_3$ of the following RNN?
+\begin{equation*}
+        x_1 = 1, x_2 = 1, x_3 = 1, w = 1, u = 1, v = 1, s_0 = 0\\
+\end{equation*}
+\begin{equation*}
+        s_1 = w \cdot s_0 + x_1
+\end{equation*}
+\begin{equation*}
+        v_1 = s_1
+\end{equation*}
+\begin{equation*}
+        s_2 = w \cdot s_1 + x_2
+\end{equation*}
+\begin{equation*}
+        v_2 = s_2
+\end{equation*}
+\begin{equation*}
+        s_3 = w \cdot s_2 + x_3 = \,\, \mathbf{?}
+\end{equation*}
+""""""
+","
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 1, 1])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: What is the output $s_3$ of the following RNN?
+\begin{equation*}
+        x_1 = 1, x_2 = 1, x_3 = 1, w = 1, u = 1, v = 1, s_0 = 0\\
+\end{equation*}
+\begin{equation*}
+        s_1 = w \cdot s_0 + x_1
+\end{equation*}
+\begin{equation*}
+        v_1 = s_1
+\",
+16,"Which of the following is true of the LSTM cell?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] It is a more general form of the RNN cell 
+    \item[b.] It is a more general form of the GRU cell 
+    \item[c.] It is a less general form of the GRU cell 
+    \item[d.] It is a less general form of the RNN cell
+\end{enumerate}",a and c.,"""""""
+write a program that answers the following question: Which of the following is true of the LSTM cell?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] It is a more general form of the RNN cell 
+    \item[b.] It is a more general form of the GRU cell 
+    \item[c.] It is a less general form of the GRU cell 
+    \item[d.] It is a less general form of the RNN cell
+\end{enumerate}
+""""""
+","
+#%%
+""""""
+write a program that answers the following question: Which of the following is true of the GRU cell?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] It is a more general form of the RNN cell 
+    \item[b.] It is a more general form of the LSTM cell 
+    \item[c.] It is a less general form of the LSTM cell 
+    \item[d.] It is a less general form of the RNN cell
+\end{enumerate}
+""""""
+
+#%%
+""""""
+write a program that answers the following question: Which of the following is true of the RNN cell?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] It is a more general form of the LSTM cell 
+    \item[b.] It is a more general form of the GRU cell 
+    \item[c.] It is a less general form of the GRU cell 
+    \item[d.] It is a less general form of the LSTM cell
+\end{enumer",0,"[14, 22, 11, 17, 2, 10, 15, 9, 21, 3, 13, 18, 19, 4, 20, 5, 7, 8, 6, 12, 1]","""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: Suppose you would like to classify restaurant reviews as good or bad. Why is a bag of words not an appropriate solution? Explain.
+""""""
+
+""""""
+ANSWER:
+
+A bag of words is not an appropriate solution because it does not take into account the order of the words.
+
+For example, the sentence ""The food was good"" would be classified as a good review, but the sentence ""The food was not good"" would be classified as a bad review.
+
+A bag of words would not be able to distinguish between these two sentences.
+""""""
+
+""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: Which of the following is true of the LSTM cell?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] It is a more general form of the RNN cell 
+    \item[b.] It is a more general form of the GRU cell 
+    \item[c.] It is a less general form of the GRU cell 
+    \item[d.] It is a less general form of the RNN cell
+\end{enumerate}
+""""""
+","
+# a. It is a more general form of the RNN cell
+
+""""""
+write a program that answers the following question: Which of the following is true of the LSTM cell?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] It is a more general form of the RNN cell 
+    \item[b.] It is a more general form of the GRU cell 
+    \item[c.] It is a less general form of the GRU cell 
+    \item[d.] It is a less general form of the RNN cell
+\end{enumerate}
+""""""
+
+# a. It is a more general form of the RNN cell
+
+""""""
+write a program that answers the following question: Which of the following is true of the LSTM cell?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] It is a more general form of the RNN cell 
+    \item[b.] It is a more general form of the GRU cell 
+    \item[c.] It is a less general form of the GRU cell ",
+17,"For which of the following sequences can the next character be correctly predicted by a model using only the previous character?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] $1, 1, 1, -1, 1, 1, 1, -1, ?$
+    \item[b.] $1, -1, 1, -1, 1, -1, ?$
+    \item[c.] $1, 1, -1, 1, 1, -1, 1, 1, -1, ?$
+    \item[d.] $-1, -1, 1, -1, -1, 1, ?$
+\end{enumerate}",b.,"""""""
+write a program that answers the following question: For which of the following sequences can the next character be correctly predicted by a model using only the previous character?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] $1, 1, 1, -1, 1, 1, 1, -1, ?$
+    \item[b.] $1, -1, 1, -1, 1, -1, ?$
+    \item[c.] $1, 1, -1, 1, 1, -1, 1, 1, -1, ?$
+    \item[d.] $-1, -1, 1, -1, -1, 1, ?$
+\end{enumerate}
+""""""
+","
+import numpy as np
+import matplotlib.pyplot as plt
+
+def predict(x):
+    """"""
+    predict the next value in the sequence
+    """"""
+    # get the last value
+    last = x[-1]
+    # get the second to last value
+    second_last = x[-2]
+    # if the last two values are the same, predict the same
+    if last == second_last:
+        return last
+    # if the last two values are different, predict the opposite
+    else:
+        return -last
+
+def predict_sequence(x):
+    """"""
+    predict the next value in the sequence
+    """"""
+    # get the last value
+    last = x[-1]
+    # get the second to last value
+    second_last = x[-2]
+    # get the third to last value
+    third_last = x[-3]
+    # if the last three values are the same, predict the same
+    if last == second_last and second_last == third_last:
+        return last
+    # if the last three values are different, predict the",0,"[9, 16, 14, 15, 19, 22, 11, 18, 10, 21, 2, 6, 3, 20, 12, 4, 8, 5, 13, 1, 7]","""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: Suppose you would like to classify restaurant reviews as good or bad. Why is a bag of words not an appropriate solution? Explain.
+""""""
+
+""""""
+ANSWER:
+
+A bag of words is not an appropriate solution because it does not take into account the order of the words.
+
+For example, the sentence ""The food was good"" would be classified as a good review, but the sentence ""The food was not good"" would be classified as a bad review.
+
+A bag of words would not be able to distinguish between these two sentences.
+""""""
+
+""""""
+write a program that answers the following question: For which of the following sequences can the next character be correctly predicted by a model using only the previous character?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] $1, 1, 1, -1, 1, 1, 1, -1, ?$
+    \item[b.] $1, -1, 1, -1, 1, -1, ?$
+    \item[c.] $1, 1, -1, 1, 1, -1, 1, 1, -1, ?$
+    \item[d.] $-1, -1, 1, -1, -1, 1, ?$
+\end{enumerate}
+""""""
+","
+# a, b, c
+
+""""""
+write a program that answers the following question: For which of the following sequences can the next character be correctly predicted by a model using only the previous character?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] $1, 1, 1, -1, 1, 1, 1, -1, ?$
+    \item[b.] $1, -1, 1, -1, 1, -1, ?$
+    \item[c.] $1, 1, -1, 1, 1, -1, 1, 1, -1, ?$
+    \item[d.] $-1, -1, 1, -1, -1, 1, ?$
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: For which of the following sequences can the next character be correctly predicted by a model using only the previous character?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] $1, 1, 1, -1, 1, 1",
+18,"What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?",1,"""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+","
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)",1,"[15, 19, 14, 8, 16, 4, 17, 6, 12, 10, 22, 5, 7, 1, 9, 13, 2, 3, 11, 21, 20]",n/a,n/a,
+19,"Given an RNN defined by $s_t = W \cdot s_{t - 1} + U \cdot x_t$ with $W = [ [ -1 , 0 ] , [ 0 , -1 ] ]$, $U = [ [ 1 ] , [ 1 ] ]$, and $s_0 = [ [ 0 ] , [ 0 ] ]$, what is $s_2$ for $x = ( x_1 , x_2 ) = ( 1 , 0 )$?","$[-1, -1]$.","""""""
+write a program that answers the following question: Given an RNN defined by $s_t = W \cdot s_{t - 1} + U \cdot x_t$ with $W = [ [ -1 , 0 ] , [ 0 , -1 ] ]$, $U = [ [ 1 ] , [ 1 ] ]$, and $s_0 = [ [ 0 ] , [ 0 ] ]$, what is $s_2$ for $x = ( x_1 , x_2 ) = ( 1 , 0 )$?
+""""""
+","
+import numpy as np
+
+W = np.array([[-1, 0], [0, -1]])
+U = np.array([[1], [1]])
+s0 = np.array([[0], [0]])
+x = np.array([[1], [0]])
+
+s1 = np.dot(W, s0) + np.dot(U, x)
+s2 = np.dot(W, s1) + np.dot(U, x)
+
+print(s2)",0,"[15, 18, 17, 8, 6, 16, 12, 5, 9, 4, 7, 14, 22, 10, 21, 13, 2, 11, 1, 20, 3]","""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1
+
+""""""
+write a program that answers the following question: Given an RNN defined by $s_t = W \cdot s_{t - 1} + U \cdot x_t$ with $W = [ [ -1 , 0 ] , [ 0 , -1 ] ]$, $U = [ [ 1 ] , [ 1 ] ]$, and $s_0 = [ [ 0 ] , [ 0 ] ]$, what is $s_2$ for $x = ( x_1 , x_2 ) = ( 1 , 0 )$?
+""""""
+","
+import numpy as np
+
+# input
+x = np.array([1, 0])
+
+# weight
+W = np.array([[-1, 0], [0, -1]])
+U = np.array([[1], [1]])
+
+# state
+s = np.array([[0], [0]])
+
+# update state
+s = W.dot(s) + U.dot(x)
+
+print(s)
+
+""""""
+write a program that answers the following question: Given an RNN defined by $s_t = W \cdot s_{t - 1} + U \cdot x_t$ with $W = [ [ -1 , 0 ] , [ 0 , -1 ] ]$, $U = [ [ 1 ] , [ 1 ] ]$, and $s_0 = [ [ 0 ] , [ 0 ] ]$, what is $s_2$ for $x = ( x_1 , x_2 ) = ( 1 , 0 )$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 0])
+
+# weight
+W =",
+20,Suppose you would like to classify restaurant reviews as good or bad. Why is a bag of words not an appropriate solution? Explain.,A bag-of-words representation does not take into account word order which is important for classifying reviews.,"""""""
+write a program that answers the following question: Suppose you would like to classify restaurant reviews as good or bad. Why is a bag of words not an appropriate solution? Explain.
+""""""
+","
+""""""
+ANSWER:
+
+A bag of words is not an appropriate solution because it does not take into account the order of the words.
+
+For example, the sentence ""The food was good"" would be classified as a good review, but the sentence ""The food was not good"" would be classified as a bad review.
+
+A bag of words would not be able to distinguish between these two sentences.
+""""""",1,"[13, 21, 11, 2, 10, 22, 17, 4, 14, 8, 16, 1, 3, 18, 7, 6, 5, 9, 19, 12, 15]",n/a,n/a,
+21,"Select the best type of model for each use case, matching the use case to the options provided:
+
+\noindent
+Use cases:
+\begin{enumerate}[label=\alph*.]
+    \item[1.]
+    Tumor segmentation analysis or recognizing tumor patches in medical ``slides''.
+    \item[2.]
+    Sentiment analysis on a large text corpus.
+    \item[3.]
+    Time series forecasting to predict price of automobile in the next month.
+    \item[4.]
+    Predict the price of a house based on square feet, ratio of bedrooms/bathrooms.
+\end{enumerate}
+
+\noindent
+Options: CNN, RNN, Fully connected neural network","(1) CNN, (2) RNN, (3) RNN, (4) Fully connected neural network.","""""""
+write a program that answers the following question: Select the best type of model for each use case, matching the use case to the options provided:
+
+\noindent
+Use cases:
+\begin{enumerate}[label=\alph*.]
+    \item[1.]
+    Tumor segmentation analysis or recognizing tumor patches in medical ``slides''.
+    \item[2.]
+    Sentiment analysis on a large text corpus.
+    \item[3.]
+    Time series forecasting to predict price of automobile in the next month.
+    \item[4.]
+    Predict the price of a house based on square feet, ratio of bedrooms/bathrooms.
+\end{enumerate}
+
+\noindent
+Options: CNN, RNN, Fully connected neural network
+""""""
+","
+# %%
+""""""
+1. CNN
+2. RNN
+3. Fully connected neural network
+4. Fully connected neural network
+""""""
+
+# %%
+""""""
+write a program that answers the following question: Select the best type of model for each use case, matching the use case to the options provided:
+
+\noindent
+Use cases:
+\begin{enumerate}[label=\alph*.]
+    \item[1.]
+    Tumor segmentation analysis or recognizing tumor patches in medical ``slides''.
+    \item[2.]
+    Sentiment analysis on a large text corpus.
+    \item[3.]
+    Time series forecasting to predict price of automobile in the next month.
+    \item[4.]
+    Predict the price of a house based on square feet, ratio of bedrooms/bathrooms.
+\end{enumerate}
+
+\noindent
+Options: CNN, RNN, Fully connected neural network
+""""""
+
+# %%
+""""""
+1. CNN
+2. RNN
+3. Fully connected neural network
+4. Fully connected neural network
+""""""
+
+# %%
+""""""
+write a program that answers the",0,"[2, 11, 10, 13, 16, 4, 14, 22, 3, 20, 17, 9, 8, 15, 1, 18, 19, 5, 7, 6, 12]","""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: Suppose you would like to classify restaurant reviews as good or bad. Why is a bag of words not an appropriate solution? Explain.
+""""""
+
+""""""
+ANSWER:
+
+A bag of words is not an appropriate solution because it does not take into account the order of the words.
+
+For example, the sentence ""The food was good"" would be classified as a good review, but the sentence ""The food was not good"" would be classified as a bad review.
+
+A bag of words would not be able to distinguish between these two sentences.
+""""""
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1) / 2
+
+print(padding)
+
+""""""
+write a program that answers the following question: Determine how many pixels of padding we need on the input of size 80 by 80 to ensure our filter 31 by 31 gives an output of the same size.
+""""""
+
+# padding = (filter_size - 1) / 2
+
+padding = (31 - 1
+
+""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: Select the best type of model for each use case, matching the use case to the options provided:
+
+\noindent
+Use cases:
+\begin{enumerate}[label=\alph*.]
+    \item[1.]
+    Tumor segmentation analysis or recognizing tumor patches in medical ``slides''.
+    \item[2.]
+    Sentiment analysis on a large text corpus.
+    \item[3.]
+    Time series forecasting to predict price of automobile in the next month.
+    \item[4.]
+    Predict the price of a house based on square feet, ratio of bedrooms/bathrooms.
+\end{enumerate}
+
+\noindent
+Options: CNN, RNN, Fully connected neural network
+""""""
+","
+# 1. CNN
+# 2. RNN
+# 3. Fully connected neural network
+# 4. Fully connected neural network
+
+""""""
+write a program that answers the following question: Select the best type of model for each use case, matching the use case to the options provided:
+
+\noindent
+Use cases:
+\begin{enumerate}[label=\alph*.]
+    \item[1.]
+    Tumor segmentation analysis or recognizing tumor patches in medical ``slides''.
+    \item[2.]
+    Sentiment analysis on a large text corpus.
+    \item[3.]
+    Time series forecasting to predict price of automobile in the next month.
+    \item[4.]
+    Predict the price of a house based on square feet, ratio of bedrooms/bathrooms.
+\end{enumerate}
+
+\noindent
+Options: CNN, RNN, Fully connected neural network
+""""""
+
+# 1. CNN
+# 2. RNN
+# 3. Fully connected neural network
+# 4. Fully connected neural network
+
+""""""
+write a program that answers the following question: Select the best type of model for each use",
+22,"What is the benefit of using attention in RNN?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] We can model long dependencies.
+    \item[b.] The inputs are processed in parallel rather than sequentially.
+    \item[c.] Resolves vanishing gradients.
+    \item[d.] All of the above.
+\end{enumerate}",d.,"""""""
+write a program that answers the following question: What is the benefit of using attention in RNN?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] We can model long dependencies.
+    \item[b.] The inputs are processed in parallel rather than sequentially.
+    \item[c.] Resolves vanishing gradients.
+    \item[d.] All of the above.
+\end{enumerate}
+""""""
+","
+""""""
+write a program that answers the following question: What is the benefit of using attention in RNN?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] We can model long dependencies.
+    \item[b.] The inputs are processed in parallel rather than sequentially.
+    \item[c.] Resolves vanishing gradients.
+    \item[d.] All of the above.
+\end{enumerate}
+""""""
+
+""""""
+write a program that answers the following question: What is the benefit of using attention in RNN?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] We can model long dependencies.
+    \item[b.] The inputs are processed in parallel rather than sequentially.
+    \item[c.] Resolves vanishing gradients.
+    \item[d.] All of the above.
+\end{enumerate}
+""""""
+
+""""""
+write a program that answers the following question: What is the benefit of using attention in RNN?
+\begin{enumerate}[label=\alph*.]
+    \item[a.]",0,"[16, 14, 11, 13, 3, 2, 17, 10, 21, 15, 18, 9, 4, 19, 20, 5, 8, 7, 6, 12, 1]","""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+""""""
+
+# a. The weights are shared between all time steps.
+
+""""""
+write a program that answers the following question: Which of the following is true of the weights in a recurrent neural network?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] The weights are shared between all time steps.
+    \item[b.] The weights are different for each time step.
+    \item[c.] The weights are different for each input.
+    \item[d.] The weights are different for each output.
+\end{enumerate}
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolutional neural networks for image analysis? 
+\begin{enumerate}[label=\alph*.]
+    \item They are trained using backpropagation. 
+    \item They are trained using gradient descent.
+    \item They are trained using supervised learning . 
+    \item They are trained using unsupervised learning.
+\end{enumerate}
+""""""
+
+# a, b, c
+
+""""""
+write a program that answers the following question: Which of the following are true of convolution
+
+""""""
+write a program that answers the following question: What is the weight $w$ for an RNN which has input $( x_1 , x_2 , x_3 ) = ( 1 , 1 , 1 )$ and output $( v_1 , v_2 , v_3 ) = ( 1 , 2 , 3 )$ and is defined by $s_t = w \cdot s_{t - 1} + x_t$ and $v_t = s_t$?
+""""""
+
+import numpy as np
+
+# input
+x = np.array([1, 1, 1])
+
+# output
+v = np.array([1, 2, 3])
+
+# weight
+w = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
+
+# state
+s = np.array([0, 0, 0])
+
+# update state
+s = w.dot(s) + x
+
+# update output
+v = s
+
+print(v)
+
+""""""
+write a program that answers the following question: Suppose you would like to classify restaurant reviews as good or bad. Why is a bag of words not an appropriate solution? Explain.
+""""""
+
+""""""
+ANSWER:
+
+A bag of words is not an appropriate solution because it does not take into account the order of the words.
+
+For example, the sentence ""The food was good"" would be classified as a good review, but the sentence ""The food was not good"" would be classified as a bad review.
+
+A bag of words would not be able to distinguish between these two sentences.
+""""""
+
+""""""
+write a program that answers the following question: For the flattened image represented by the vector x = [1, 0, 1, 0, 0, 0, 0, 1, 1, 1] and filter k = [-1, 1, -1] what is the convolution of k with x with stride 1 and no padding?
+""""""
+
+import numpy as np
+
+x = np.array([1, 0, 1, 0, 0, 0, 0, 1, 1, 1])
+k = np.array([-1, 1, -1])
+
+def convolution(x, k):
+    """"""
+    x: flattened image
+    k: filter
+    """"""
+    # stride = 1
+    # no padding
+    # output size = input size - filter size + 1
+    output_size = len(x) - len(k) + 1
+    output = np.zeros(output_size)
+    for i in range(output_size):
+        output[i] = np.sum(x[i:i+len(k)] * k)
+    return output
+
+print(convolution(x, k))
+
+""""""
+write a program that answers the following question: What is the benefit of using attention in RNN?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] We can model long dependencies.
+    \item[b.] The inputs are processed in parallel rather than sequentially.
+    \item[c.] Resolves vanishing gradients.
+    \item[d.] All of the above.
+\end{enumerate}
+""""""
+","
+# a. We can model long dependencies.
+
+""""""
+write a program that answers the following question: What is the benefit of using attention in RNN?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] We can model long dependencies.
+    \item[b.] The inputs are processed in parallel rather than sequentially.
+    \item[c.] Resolves vanishing gradients.
+    \item[d.] All of the above.
+\end{enumerate}
+""""""
+
+# a. We can model long dependencies.
+
+""""""
+write a program that answers the following question: What is the benefit of using attention in RNN?
+\begin{enumerate}[label=\alph*.]
+    \item[a.] We can model long dependencies.
+    \item[b.] The inputs are processed in parallel rather than sequentially.
+    \item[c.] Resolves vanishing gradients.
+    \item[d.] All of the above.
+\end{enumerate}
+""""""
+
+# a. We can model long dependencies.
+
+""""""
+write a program that answers the following question:",
