@@ -4,7 +4,7 @@ import time
 import argparse
 import os
 
-openai.api_key = "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"
+openai.api_key = "YOUR KEY"
 openai.Model.list()
 
 questions_per_course = 22
