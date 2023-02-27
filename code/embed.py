@@ -7,7 +7,7 @@ from sentence_transformers import util
 import os
 
 # openai.api_key = os.getenv('OpenAI_API_Key')
-openai.api_key = "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"
+openai.api_key = "YOUR KEY"
 openai.Model.list()
 
 embeddings_location = 'C:/Users/ADMIN/Desktop/mathQ/code/embed_data.json'
