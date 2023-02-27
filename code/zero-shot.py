@@ -27,7 +27,7 @@ if args.GPT3_CoT == 'True':
     column_labels += ['GPT-3 CoT Input', 'GPT-3 CoT Output', 'GPT-3 CoT Evaluation']
 column_labels += ['Most Similar Questions']
 
-openai.api_key = "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"
+openai.api_key = "YOUR KEY"
 openai.Model.list()
 
 questions_per_course = 22
