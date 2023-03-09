@@ -5,7 +5,7 @@ import os
 from embed import get_embeddings, get_most_similar
 import csv
 
-openai.api_key = "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"
+openai.api_key = "YOUR KEY"
 openai.Model.list()
 
 questions_per_course = 22
